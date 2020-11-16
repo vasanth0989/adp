@@ -1,0 +1,110 @@
+.techdiff_pg{
+    &__container{
+        position: relative;
+        margin-bottom: 6rem;
+    }
+    &__content{
+        margin: 0 auto;
+        height: max-content;
+        width: 100%;
+        @include screenWidth;
+        background-color: $color-light-grey;
+        padding:1rem;
+        border-radius: 20px;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+        & h1{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding-left: 1.2rem;
+        }
+        & h3{
+            position: relative;
+            display: block;
+        }
+        .row{
+            padding-left: 1.2rem;
+            display: grid;
+            grid-auto-rows: max-content;
+            position: relative;
+            margin-bottom: 1rem;
+            grid-template-columns: minmax(13rem,max-content) max-content;
+            grid-column-gap: 2rem;
+            // background-color: seagreen;
+        }
+    }
+
+    &__code-stack-grid{
+        position: relative;
+        width: 100%;
+        @include screenWidth;
+        // background-color: steelblue;
+        margin:0 auto;
+        margin-bottom: 5rem;
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: repeat(auto-fit,minmax(45%, 1fr));
+        grid-column-gap: 2rem;
+    }
+
+    &__code-stack-container{
+        & h3{
+            text-align: center;
+            font-weight: 400;
+            font-size: 3rem;
+            position: relative;
+            margin-bottom: 5px;
+        }
+    }
+
+    &__stack{
+        height: 40rem;
+        width:100%;
+        border-radius: 35px;
+        background-color:$color-black-board;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+        overflow: hidden;
+        display:flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    &__code-container{
+        & h3{
+            text-align: center;
+            font-weight: 400;
+            font-size: 3rem;
+            position: relative;
+            margin-bottom: 5px;
+        }
+    }
+
+    &__code{
+        height: 40rem;
+        width:100%;
+        background-color: $color-black-board;
+        border-radius: 35px;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+    }    
+
+    &__pre-content{
+        height:100%;
+        width: 100%;
+        overflow: auto;
+        padding: 10px;
+    }
+   
+    pre {
+        padding: 10px;
+        position: relative;
+        background: transparent !important;
+        width: 100%;
+        // overflow-x: auto;
+        font-size: 1.2rem;
+        height: 92%;
+    }
+
+    code {
+        background: transparent !important;
+    }
+    
+}

@@ -1,0 +1,22 @@
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/card";
+@import "components/gallery";
+@import "components/scrollbar";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+@import "pages/home";
+@import "pages/tech-diff";
+
+
+

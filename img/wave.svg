@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 798" preserveAspectRatio="none">
+<defs>
+<style>
+.a{fill:url(#a);}
+</style>
+<linearGradient id="a" x1="-0.006" y1="0.549" x2="1" y2="0.541" gradientUnits="objectBoundingBox">
+<stop offset="0%" stop-color="black"/>
+<stop offset="100%" stop-color="black"/>
+</linearGradient>
+</defs>
+<path class="a" d="M1922,768h-2.4c-.4-.056-40.819-5.727-106.138-14.219-59.875-7.784-153.035-19.529-256.821-31.281-116.651-13.209-222.672-23.733-315.117-31.281-54.891-4.481-105.543-7.95-150.548-10.309C1041.47,678.315,997.571,677,960.5,677,656.7,677,27.63,764.15,1,767.86V0H1922Z" transform="translate(-1 0)"/>
+</svg>
